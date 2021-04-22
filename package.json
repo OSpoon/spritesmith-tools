@@ -1,0 +1,21 @@
+{
+  "name": "spritesmith-tools",
+  "version": "1.0.0",
+  "description": "雪碧图生成工具",
+  "main": "./src/index.js",
+  "scripts": {
+    "build:dev": "npx webpack --mode development",
+    "build:prod": "npx webpack --mode production"
+  },
+  "keywords": [
+    "雪碧图",
+    "精灵图"
+  ],
+  "author": "小鑫同学",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack-spritesmith": "^1.1.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}
